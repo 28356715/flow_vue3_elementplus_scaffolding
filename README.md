@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://flow.com/">
-    <img width="400" src="assets/img/flow-vue.svg" />
+    <img width="400" src="src/assets/img/flow-vue.svg" />
   </a>
 </p>
 
@@ -46,5 +46,5 @@ npm run build
 ```
 
 When you see the following page, congratulations, you've made it. Start your pleasant trip!
-<img width="400" src="assets/img/flow-vue.jpg" />
+<img width="400" src="src/assets/img/flow-vue.jpg" />
 
