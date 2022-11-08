@@ -16,8 +16,16 @@
 ## 1. Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 
-- Git - [Download & Install Git.](https://flow.com/) <br/> 
 - Node.js - [Download & Install Node.js](https://nodejs.org/)  and the npm package manager.
+- Install vue-cli3
+```sh
+   npm install -g @vue/cli
+```
+   To view the vue-cli version, you need to install version 3.x or above
+```sh
+   vue -V
+```
+   
 
 
 ## Clone the project
