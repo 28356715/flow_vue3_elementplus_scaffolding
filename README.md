@@ -12,33 +12,35 @@
 
 -  For more information about Flow, see:: [Flow Website](https://flow.com/) <br/> 
 
-## 先决条件
 ## 1. Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 
 - Node.js - [Download & Install Node.js](https://nodejs.org/)  and the npm package manager.
-- Install vue-cli3
+- Install the latest version of vue-cli
 ```sh
    npm install -g @vue/cli
 ```
-   To view the vue-cli version, you need to install version 3.x or above
+ - To view the vue-cli version, you need to install version 3.x or above
 ```sh
    vue -V
 ```
-   
+ - If you are a low-level version, you can uninstall vue-cli after installing it globally, and then reinstall it.
+```sh
+   npm uninstall -g @vue/cli
+```
 
 
-## Clone the project
+## 2. Clone the project
 ```sh
 git clone https://github.com/28356715/flow_vue3_elementplus_scaffolding.git
 ```
 
 
-##  IDE
+## 3. IDE
 - VSCode - [Download & Install VSCode.](https://code.visualstudio.com/) <br/>
 - Install the plug-in in VSCode: cadence
 
-## Project setup
+## 4. Project setup
 ```sh
 npm install
 ```
