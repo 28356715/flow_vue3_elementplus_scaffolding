@@ -22,7 +22,7 @@ Make sure you have installed all of the following prerequisites on your developm
 
 ## Clone the project
 ```sh
-git clone https://github.com/onflow/kitty-items.git
+git clone https://github.com/28356715/flow_vue3_elementplus_scaffolding.git
 ```
 
 
