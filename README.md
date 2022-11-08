@@ -3,11 +3,6 @@
     <img width="400" src="src/assets/img/flow-vue.svg" />
   </a>
 </p>
-
-
-- flow_vue3_elementplus_scaffolding:是一个集成Flow、Vue3、ElementPlus的web应用脚手架，能帮助你快速的进入Flow DApp项目开发。
-- 关于Flow的更多信息，可以查看：https://flow.com/
-
 - flow_vue3_elementplus_scaffolding: is an integrated Flow, Vue3, ElementPlus web application scaffolding that can help you quickly get into Flow DApp project development.
 
 -  For more information about Flow, see:: [Flow Website](https://flow.com/) <br/> 
