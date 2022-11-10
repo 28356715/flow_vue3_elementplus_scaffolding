@@ -12,7 +12,6 @@ Make sure you have installed all of the following prerequisites on your developm
 
 - Node.js - [Download & Install Node.js](https://nodejs.org/)  and the npm package manager.
    To view the nodejs version.(nodejs requires version 13 or above.)
-   if
   ```sh
    node -v
    ```

@@ -14,8 +14,8 @@
       <li><a href="https://developers.flow.com/" target="_blank" rel="noopener">Flow Developers</a></li>
       <li><a href="https://developers.flow.com/cadence/language/built-in-functions#unsaferandom" target="_blank" rel="noopener">Cadence</a></li>
       <li><a href="https://play.flow.com/local-project" target="_blank" rel="noopener">PlayGround</a></li>
-      <li><a href="" target="_blank" rel="noopener">Video Course----未上线</a></li>
-      <li><a href="" target="_blank" rel="noopener">Example----未上线</a></li>
+      <li><a href="https://www.youtube.com/watch?v=VbUEZShd-6I" target="_blank" rel="noopener">Video Course</a></li>
+      <li><a href="https://github.com/28356715/flow_vue3_marketplace_example" target="_blank" rel="noopener">Example</a></li>
     </ul>
     <h3>Flow Socials & Platforms</h3>
     <ul>
@@ -23,7 +23,7 @@
       <li><a href="https://www.youtube.com/channel/UCs9r5lqmYQsKCpLB9jKwocg" target="_blank" rel="noopener">Youtube</a></li>
       <li><a href="https://onflow.org/discord" target="_blank" rel="noopener">Discord</a></li>
       <li><a href="https://twitter.com/flow_blockchain" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://t.me/flow_blockchain" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="https://t.me/flow_blockchain" target="_blank" rel="noopener">Telegram</a></li>
     </ul>
     <h3>Front-end Developer Documentation</h3>
     <ul>
