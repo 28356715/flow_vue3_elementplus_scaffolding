@@ -9,6 +9,15 @@
       <li><el-button type="success"  @click="login">Connet Wallet</el-button></li>
       <li><el-button type="warning"  @click="logout">Log out</el-button></li>
     </ul>
+    <h3>interact with flow</h3>
+    <ul>
+      <li><el-tag v-if="myFriend.length>0"  effect="light" type="success" > {{myFriend}} </el-tag></li> <br/>
+      <li>
+      Say hello to <el-input v-model="name" class = "input" placeholder="Please input" style="width:40%"/>
+      <el-button type="success"  @click="query">SayHi(query)</el-button>
+      </li>
+    </ul>
+    
     <h3>Learn Flow</h3>
     <ul>
       <li><a href="https://developers.flow.com/" target="_blank" rel="noopener">Flow Developers</a></li>
@@ -37,8 +46,14 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { getCurrentInstance } from 'vue'
+import { SAYHI_SCRIPT } from "../flow/sayHi.script"
+import { Action, ElMessage, ElMessageBox } from 'element-plus'
+
+
 
 var userWalletAddress = ref("")
+const name = ref('')
+const myFriend = ref('')
 
 
 //用户信息
@@ -61,6 +76,28 @@ const userinfo = ref(globalConfig.$fcl.currentUser.subscribe(setUser))
         await globalConfig.$fcl.unauthenticate()
         userWalletAddress.value =  ""
 })
+// 链上查询
+const query = ( async ()=>{
+            
+  if (!name.value) {
+          ElMessageBox.alert('Name cannot be empty~', {
+            confirmButtonText: 'OK',
+            type:'error',
+          })
+          return 
+        }
+  try{ 
+       let res = await globalConfig.$fcl.query({
+          cadence:SAYHI_SCRIPT,
+          args:(arg,t)=>[
+            arg(name,t.String),//recipient: Address,
+          ],
+        })
+        myFriend.value = res
+      }catch(err){
+        console.log("err===========",err)
+      }
+})
 
 </script>
 
@@ -78,5 +115,12 @@ li {
 }
 a {
   color: #42b983;
+}
+.input{
+  margin: 20px 5px 0 5px;
+  font-size: larger;
+}
+.mx-1{
+  font-size: larger;
 }
 </style>

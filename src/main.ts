@@ -9,17 +9,14 @@ import  * as flow from '../config/flow.config';
 
 
 fcl.config({
-    "discovery.wallet":flow.VUE_APP_WALLET_DISCOVERY , // Endpoint set to Testnet
+    "flow.network": "testnet",
     // "accessNode.api":'https://rest-testnet.onflow.org',
     "accessNode.api":flow.VUE_APP_ACCESS_NODE,
 
     "app.detail.title": "Test App",//dapp title
-    // "app.detail.icon":"https://placekitten.com/g/200/200" //dapp icon
-    // "discovery.authn.include": ["0x9d2e44203cb13051"] // Ledger wallet address on Testnet set to be included
-    "0xPioneerNFT":flow.VUE_APP_PIONEERNFT,
-    "0xNonFungibleToken":flow.VUE_APP_NonFungibleToken,
-    "0xFlowToken":flow.VUE_APP_FlowToken,
-    "0xFungibleToken":flow.VUE_APP_FungibleToken,
+  
+    "0xHelloWorld":flow.VUE_APP_HELLOWORLD,
+
 })
 
 const app = createApp(App)

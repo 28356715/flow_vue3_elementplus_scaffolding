@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/img/flow-vue.svg">
-    <helloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <helloWorld msg="Welcome to Your flow + Vue3 DApp"/>
   </div>
 </template>
 <script setup >
