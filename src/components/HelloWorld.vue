@@ -11,7 +11,7 @@
     </ul>
     <h3>interact with flow</h3>
     <ul>
-      <li><el-tag v-if="myFriend.length>0"  effect="light" type="success" > {{myFriend}} </el-tag></li> <br/>
+      <li><el-tag v-if="myFriend.length>0"  effect="light" type="success" class="mx-1" > {{myFriend}} </el-tag></li> <br/>
       <li>
       Say hello to <el-input v-model="name" class = "input" placeholder="Please input" style="width:40%"/>
       <el-button type="success"  @click="query">SayHi(query)</el-button>
@@ -47,7 +47,7 @@
 import { ref } from 'vue'
 import { getCurrentInstance } from 'vue'
 import { SAYHI_SCRIPT } from "../flow/sayHi.script"
-import { Action, ElMessage, ElMessageBox } from 'element-plus'
+import { ElMessageBox } from 'element-plus'
 
 
 
@@ -90,12 +90,12 @@ const query = ( async ()=>{
        let res = await globalConfig.$fcl.query({
           cadence:SAYHI_SCRIPT,
           args:(arg,t)=>[
-            arg(name,t.String),//recipient: Address,
+            arg(name.value,t.String),//String,
           ],
         })
         myFriend.value = res
       }catch(err){
-        console.log("err===========",err)
+        console.log("err==",err)
       }
 })
 
