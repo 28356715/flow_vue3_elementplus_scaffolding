@@ -30,11 +30,6 @@ Make sure you have installed all of the following prerequisites on your developm
 ```sh
    npm uninstall -g @vue/cli
 ```
--  Flow-cli-[Install Flow-cli](https://developers.flow.com/tools/flow-cli/install)
-   macOS & Linux  can execute the following commands:
-```sh
-   sh -ci "$(curl -fsSL https://storage.googleapis.com/flow-cli/install.sh)"
-```
 
 ## 2. Clone the project
 ```sh
@@ -68,9 +63,6 @@ For contract deployment see: [Flow CLI](https://developers.flow.com/tools/flow-c
 npm run build
 ```
 
-现在和链上交互的合约代码是我部署到testnet，当然了，你也可以编写自己的合约进行部署。
-合约部署开发者文档：
-或者参阅我的视频课程：
 
 
 
