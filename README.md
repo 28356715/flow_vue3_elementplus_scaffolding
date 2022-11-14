@@ -9,7 +9,7 @@
 -  It includes an example of connecting to a wallet and an example of interacting with the flow chain that will help you get started quickly.<br/> 
 - ElementPlus is a component library that helps to make DApp development more efficient.<br/>
 - [Video Courses](https://www.bilibili.com/video/BV1ct4y1T7uc/?spm_id_from=333.788.recommend_more_video.2&vd_source=ca965131813ddd4578944b811c237435)
-
+- [Market Examples](https://github.com/28356715/flow_vue3_marketplace_example)
 
 ## 1. Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
