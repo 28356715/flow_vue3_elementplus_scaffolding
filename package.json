@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "install-package": "npm install & sh -ci '$(curl -fsSL https://storage.googleapis.com/flow-cli/install.sh)'"
+    "install-package": "concurrently \"npm install\" \"brew install flow-cli\" "
   },
   "dependencies": {
     "@onflow/fcl": "^1.1.0",
