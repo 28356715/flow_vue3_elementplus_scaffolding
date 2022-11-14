@@ -3,7 +3,7 @@
     <img width="400" src="src/assets/img/flow-vue.svg" />
   </a>
 </p>
-- flow_vue3_elementplus_scaffolding: is an integrated Flow, Vue3, ElementPlus web application scaffolding that can help you quickly get into Flow DApp project development.
+- flow_vue3_elementplus_scaffolding: is an integrated flow-cli, Vue3, ElementPlus web application scaffolding that can help you quickly get into Flow DApp project development.
 
 -  For more information about Flow, see:: [Flow Website](https://flow.com/) <br/> 
 -  It includes an example of connecting to a wallet and an example of interacting with the flow chain that will help you get started quickly.<br/> 
