@@ -6,6 +6,9 @@
 - flow_vue3_elementplus_scaffolding: is an integrated Flow, Vue3, ElementPlus web application scaffolding that can help you quickly get into Flow DApp project development.
 
 -  For more information about Flow, see:: [Flow Website](https://flow.com/) <br/> 
+-  It includes an example of connecting to a wallet and an example of interacting with the flow chain that will help you get started quickly.<br/> 
+- ElementPlus is a component library that helps to make DApp development more efficient.
+
 
 ## 1. Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
@@ -47,7 +50,7 @@ git clone https://github.com/28356715/flow_vue3_elementplus_scaffolding.git
 ```sh
 npm install
 ```
-Note: If a package cannot be installed correctly, you can use cnpm or reset the npm mirror
+Note: If a package cannot be installed correctly and you are a Chinese community developer, you can use cnpm or reset the npm mirror
 ### Compiles and hot-reloads for development
 ```sh
 npm run serve
