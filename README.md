@@ -49,8 +49,9 @@ git clone https://github.com/28356715/flow_vue3_elementplus_scaffolding.git
 
 ## 4. Install dependencies
 ```sh
-npm install
+npm run  install-package
 ```
+
 Note: If a package cannot be installed correctly and you are a Chinese community developer, you can use cnpm or reset the npm mirror
 ### Compiles and hot-reloads for development
 ```sh
