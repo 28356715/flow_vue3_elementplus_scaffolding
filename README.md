@@ -8,7 +8,6 @@
 -  For more information about Flow, see:: [Flow Website](https://flow.com/) <br/> 
 -  It includes an example of connecting to a wallet and an example of interacting with the flow chain that will help you get started quickly.<br/> 
 - ElementPlus is a component library that helps to make DApp development more efficient.<br/>
-- [Video Courses](https://www.bilibili.com/video/BV1ct4y1T7uc/?spm_id_from=333.788.recommend_more_video.2&vd_source=ca965131813ddd4578944b811c237435)
 - [Market Examples](https://github.com/28356715/flow_vue3_marketplace_example)
 
 ## 1. Prerequisites
@@ -51,14 +50,16 @@ git clone https://github.com/28356715/flow_vue3_elementplus_scaffolding.git
 ```sh
 npm run  install-package
 ```
-
 Note: If a package cannot be installed correctly and you are a Chinese community developer, you can use cnpm or reset the npm mirror
+
 ### Compiles and hot-reloads for development
 ```sh
 npm run serve
 ```
 
 When you see the following page, congratulations, you've made it. Start your pleasant trip!
+For contract deployment see: [Flow CLI](https://developers.flow.com/tools/flow-cli/account-add-contract) or [the video course](https://www.bilibili.com/video/BV1ct4y1T7uc/?spm_id_from=333.788.recommend_more_video.2&vd_source=ca965131813ddd4578944b811c237435)
+
 <img width="400" src="src/assets/img/flow-vue.jpg" />
 
 
@@ -66,6 +67,10 @@ When you see the following page, congratulations, you've made it. Start your ple
 ```
 npm run build
 ```
+
+现在和链上交互的合约代码是我部署到testnet，当然了，你也可以编写自己的合约进行部署。
+合约部署开发者文档：
+或者参阅我的视频课程：
 
 
 
