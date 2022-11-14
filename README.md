@@ -13,6 +13,11 @@
 ## 1. Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 
+-  Flow-cli -[Install Flow-cli](https://developers.flow.com/tools/flow-cli/install)
+   macOS & Linux  can execute the following command:
+  ```sh
+   sh -ci "$(curl -fsSL https://storage.googleapis.com/flow-cli/install.sh)"
+  ```
 - Node.js - [Download & Install Node.js](https://nodejs.org/)  and the npm package manager.
    To view the nodejs version.(nodejs requires version 13 or above.)
   ```sh
@@ -41,18 +46,7 @@ git clone https://github.com/28356715/flow_vue3_elementplus_scaffolding.git
 - Install the plug-in in VSCode: cadence
 
 ## 4. Install dependencies
-Option 1.
-```sh
-npm run  install-package
-```
-Option 2.
-
--  1. Flow-cli-[Install Flow-cli](https://developers.flow.com/tools/flow-cli/install)
-   macOS & Linux  can execute the following command:
-  ```sh
-   sh -ci "$(curl -fsSL https://storage.googleapis.com/flow-cli/install.sh)"
-  ```
--  2. Execute the following command：
+  Execute the following command：
   ```sh
    npm install
   ```
