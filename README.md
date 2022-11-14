@@ -7,8 +7,8 @@
 
 -  For more information about Flow, see:: [Flow Website](https://flow.com/) <br/> 
 -  It includes an example of connecting to a wallet and an example of interacting with the flow chain that will help you get started quickly.<br/> 
-- ElementPlus is a component library that helps to make DApp development more efficient.<br/>
-- [Market Examples](https://github.com/28356715/flow_vue3_marketplace_example)
+-  ElementPlus is a component library that helps to make DApp development more efficient.<br/>
+-  [Market Examples](https://github.com/28356715/flow_vue3_marketplace_example)
 
 ## 1. Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
@@ -19,33 +19,45 @@ Make sure you have installed all of the following prerequisites on your developm
    node -v
    ```
 - Install the latest version of vue-cli
-```sh
+  ```sh
    npm install -g @vue/cli
-```
+   ```
    To view the vue-cli version, you need to install version 3.x or above
-```sh
+   ```sh
    vue -V
-```
+   ```
    If you are a low-level version, you can uninstall vue-cli after installing it globally, and then reinstall it.
-```sh
+   ```sh
    npm uninstall -g @vue/cli
-```
+   ```
 
 ## 2. Clone the project
 ```sh
 git clone https://github.com/28356715/flow_vue3_elementplus_scaffolding.git
 ```
 
-
 ## 3. IDE
 - VSCode - [Download & Install VSCode.](https://code.visualstudio.com/) <br/>
 - Install the plug-in in VSCode: cadence
 
 ## 4. Install dependencies
+Option 1.
 ```sh
 npm run  install-package
 ```
-Note: If a package cannot be installed correctly and you are a Chinese community developer, you can use cnpm or reset the npm mirror
+Option 2.
+
+-  1. Flow-cli-[Install Flow-cli](https://developers.flow.com/tools/flow-cli/install)
+   macOS & Linux  can execute the following command:
+  ```sh
+   sh -ci "$(curl -fsSL https://storage.googleapis.com/flow-cli/install.sh)"
+  ```
+-  2. Execute the following command：
+  ```sh
+   npm install
+  ```
+Note: If a package cannot be installed correctly and you are a Chinese community developer, you can use cnpm or reset the npm mirror.
+      Complete the installation and you have Flow-Cli, Fcl, TypeScript, ElementPlus capabilities.
 
 ### Compiles and hot-reloads for development
 ```sh
